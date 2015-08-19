@@ -1,0 +1,17 @@
+LOCK TABLES `b_user_field` WRITE;
+INSERT INTO `b_user_field` VALUES (1600,'HLBLOCK_2','UF_VIDEO','video','',100,'N','N','N','Y','Y','N','a:15:{s:13:\"BUFFER_LENGTH\";i:10;s:10:\"CONTROLBAR\";s:6:\"bottom\";s:9:\"AUTOSTART\";s:1:\"N\";s:6:\"VOLUME\";i:90;s:4:\"SKIN\";s:0:\"\";s:9:\"FLASHVARS\";s:0:\"\";s:9:\"WMODE_FLV\";s:11:\"transparent\";s:7:\"BGCOLOR\";s:6:\"FFFFFF\";s:5:\"COLOR\";s:6:\"000000\";s:10:\"OVER_COLOR\";s:6:\"000000\";s:12:\"SCREEN_COLOR\";s:6:\"000000\";s:10:\"SILVERVARS\";s:0:\"\";s:9:\"WMODE_WMV\";s:10:\"windowless\";s:5:\"WIDTH\";s:3:\"400\";s:6:\"HEIGHT\";s:3:\"300\";}'),
+(1700,'HLBLOCK_2','UF_HL_RELATION','hlblock','',100,'Y','N','N','Y','Y','N','a:5:{s:7:\"DISPLAY\";s:4:\"LIST\";s:11:\"LIST_HEIGHT\";i:5;s:10:\"HLBLOCK_ID\";i:1;s:10:\"HLFIELD_ID\";i:0;s:13:\"DEFAULT_VALUE\";i:0;}'),
+(1800,'HLBLOCK_2','UF_STRING','string','',100,'N','N','S','Y','Y','N','a:6:{s:4:\"SIZE\";i:20;s:4:\"ROWS\";i:1;s:6:\"REGEXP\";s:0:\"\";s:10:\"MIN_LENGTH\";i:0;s:10:\"MAX_LENGTH\";i:0;s:13:\"DEFAULT_VALUE\";s:0:\"\";}'),
+(1900,'HLBLOCK_2','UF_STRING_LIST','string','',100,'Y','N','I','Y','Y','N','a:6:{s:4:\"SIZE\";i:20;s:4:\"ROWS\";i:1;s:6:\"REGEXP\";s:0:\"\";s:10:\"MIN_LENGTH\";i:0;s:10:\"MAX_LENGTH\";i:0;s:13:\"DEFAULT_VALUE\";s:0:\"\";}'),
+(2000,'HLBLOCK_2','UF_NUMBER','integer','',100,'N','N','N','Y','Y','N','a:4:{s:4:\"SIZE\";i:20;s:9:\"MIN_VALUE\";i:1;s:9:\"MAX_VALUE\";i:20;s:13:\"DEFAULT_VALUE\";s:0:\"\";}'),
+(2100,'HLBLOCK_2','UF_INT','integer','',100,'N','N','N','Y','Y','N','a:4:{s:4:\"SIZE\";i:20;s:9:\"MIN_VALUE\";i:0;s:9:\"MAX_VALUE\";i:0;s:13:\"DEFAULT_VALUE\";s:0:\"\";}'),
+(2200,'HLBLOCK_2','UF_DATETIME','datetime','',100,'N','N','I','Y','Y','N','a:1:{s:13:\"DEFAULT_VALUE\";a:2:{s:4:\"TYPE\";s:3:\"NOW\";s:5:\"VALUE\";s:0:\"\";}}'),
+(2300,'HLBLOCK_2','UF_DATE','date','',100,'N','N','I','Y','Y','N','a:1:{s:13:\"DEFAULT_VALUE\";a:2:{s:4:\"TYPE\";s:4:\"NONE\";s:5:\"VALUE\";s:0:\"\";}}'),
+(2400,'HLBLOCK_2','UF_BOOL','boolean','',100,'N','N','I','Y','Y','N','a:2:{s:13:\"DEFAULT_VALUE\";s:1:\"1\";s:7:\"DISPLAY\";s:8:\"CHECKBOX\";}'),
+(2500,'HLBLOCK_2','UF_FILE','file','',100,'N','Y','N','Y','Y','N','a:6:{s:4:\"SIZE\";i:20;s:10:\"LIST_WIDTH\";i:200;s:11:\"LIST_HEIGHT\";i:200;s:13:\"MAX_SHOW_SIZE\";i:0;s:16:\"MAX_ALLOWED_SIZE\";i:0;s:10:\"EXTENSIONS\";a:1:{s:3:\"png\";b:1;}}'),
+(2600,'HLBLOCK_2','UF_LIST','enumeration','',100,'N','N','N','Y','Y','N','a:3:{s:7:\"DISPLAY\";s:4:\"LIST\";s:11:\"LIST_HEIGHT\";i:5;s:16:\"CAPTION_NO_VALUE\";s:0:\"\";}'),
+(2700,'HLBLOCK_2','UF_IBLOCK_SECTION','iblock_section','',100,'N','N','N','Y','Y','N','a:5:{s:7:\"DISPLAY\";s:4:\"LIST\";s:11:\"LIST_HEIGHT\";i:5;s:9:\"IBLOCK_ID\";i:2;s:13:\"DEFAULT_VALUE\";s:0:\"\";s:13:\"ACTIVE_FILTER\";s:1:\"N\";}'),
+(2800,'HLBLOCK_2','UF_IBLOCK_ELEMENT','iblock_element','',100,'N','N','N','Y','Y','N','a:5:{s:7:\"DISPLAY\";s:4:\"LIST\";s:11:\"LIST_HEIGHT\";i:5;s:9:\"IBLOCK_ID\";i:4;s:13:\"DEFAULT_VALUE\";s:0:\"\";s:13:\"ACTIVE_FILTER\";s:1:\"N\";}'),
+(2900,'HLBLOCK_2','UF_TEMPLATE','string_formatted','',100,'N','N','N','Y','Y','N','a:7:{s:4:\"SIZE\";i:20;s:4:\"ROWS\";i:1;s:6:\"REGEXP\";s:0:\"\";s:10:\"MIN_LENGTH\";i:0;s:10:\"MAX_LENGTH\";i:0;s:13:\"DEFAULT_VALUE\";s:0:\"\";s:7:\"PATTERN\";s:7:\"#VALUE#\";}'),
+(3000,'HLBLOCK_2','UF_POLL','vote','',100,'N','N','N','Y','Y','N','a:4:{s:10:\"CHANNEL_ID\";i:4;s:6:\"UNIQUE\";i:7;s:15:\"UNIQUE_IP_DELAY\";a:2:{s:5:\"DELAY\";s:2:\"10\";s:10:\"DELAY_TYPE\";s:1:\"D\";}s:6:\"NOTIFY\";s:1:\"N\";}');
+UNLOCK TABLES;
