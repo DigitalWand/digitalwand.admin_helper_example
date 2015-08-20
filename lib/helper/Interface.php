@@ -57,6 +57,7 @@ AdminBaseHelper::setInterfaceSettings(
                 'WIDGET' => new HLIBlockFieldWidget(),
                 'TITLE' => Loc::getMessage('DW_EX_FILE'),
                 'TAB' => 'TAB_ONE',
+                'FILTER' => false
             ),
             "UF_LIST" => array(
                 'WIDGET' => new HLIBlockFieldWidget(),
@@ -73,15 +74,11 @@ AdminBaseHelper::setInterfaceSettings(
                 'TITLE' => Loc::getMessage('DW_EX_IBLOCK_ELEMENT'),
                 'TAB' => 'TAB_ANOTHER',
             ),
-            "UF_TEMPLATE" => array(
-                'WIDGET' => new HLIBlockFieldWidget(),
-                'TITLE' => Loc::getMessage('DW_EX_IBLOCK_ELEMENT'),
-                'TAB' => 'TAB_ANOTHER',
-            ),
             "UF_POLL" => array(
                 'WIDGET' => new HLIBlockFieldWidget(),
                 'TITLE' => Loc::getMessage('DW_EX_IBLOCK_ELEMENT'),
                 'TAB' => 'TAB_ANOTHER',
+                'FILTER' => false
             ),
         ),
         'TABS' => array(
