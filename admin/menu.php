@@ -1,8 +1,8 @@
 <?
 use Bitrix\Main\Loader;
 use Bitrix\Main\Localization\Loc;
-use DigitalWand\AdminHelperExample\CustomEditHelper;
-use DigitalWand\AdminHelperExample\CustomListHelper;
+use DigitalWand\AdminHelperExample\Helper\CustomEditHelper;
+use DigitalWand\AdminHelperExample\Helper\CustomListHelper;
 
 Loc::loadMessages(__FILE__);
 Loader::includeModule('digitalwand.admin_helper_example');

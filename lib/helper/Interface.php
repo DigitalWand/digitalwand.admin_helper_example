@@ -87,8 +87,8 @@ AdminBaseHelper::setInterfaceSettings(
         )
     ),
     array(
-        'DigitalWand\AdminHelperExample\CustomEditHelper',
-        'DigitalWand\AdminHelperExample\CustomListHelper'
+        'DigitalWand\AdminHelperExample\Helper\CustomEditHelper',
+        'DigitalWand\AdminHelperExample\Helper\CustomListHelper'
     ),
     'digitalwand.admin_helper_example'
 );

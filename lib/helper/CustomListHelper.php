@@ -1,6 +1,6 @@
 <?php
 
-namespace DigitalWand\AdminHelperExample;
+namespace DigitalWand\AdminHelperExample\Helper;
 
 use DigitalWand\AdminHelper\Helper\AdminListHelper;
 

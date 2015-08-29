@@ -9,8 +9,8 @@ Loc::loadMessages(__FILE__);
 
 Loader::registerAutoLoadClasses('digitalwand.admin_helper_example',
     array(
-        'DigitalWand\AdminHelperExample\CustomListHelper' => "lib/helper/CustomListHelper.php",
-        'DigitalWand\AdminHelperExample\CustomEditHelper' => "lib/helper/CustomEditHelper.php",
+        'DigitalWand\AdminHelperExample\Helper\CustomListHelper' => "lib/helper/CustomListHelper.php",
+        'DigitalWand\AdminHelperExample\Helper\CustomEditHelper' => "lib/helper/CustomEditHelper.php",
 
         'DigitalWand\AdminHelperExample\Widget\CustomWidget' => "lib/helper/widget/CustomWidget.php",
     )
